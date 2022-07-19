@@ -2003,6 +2003,15 @@ const connectors = [{
 	],
 	js: 'connectors/nugs.js',
 	id: 'nugs',
+},
+{
+	label: 'radiofutura.pt',
+	matches: [
+		'*://radiofutura.pt/*',
+	],
+	js: 'connectors/radioco.js',
+	id: 'radiofutura.pt',
+	allFrames: true,
 }];
 
 define(() => connectors);
