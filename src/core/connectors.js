@@ -2003,6 +2003,13 @@ const connectors = [{
 	],
 	js: 'connectors/nugs.js',
 	id: 'nugs',
+}, {
+	label: 'radarlisboa.fm',
+	matches: [
+		'*://radarlisboa.fm/*',
+	],
+	js: 'connectors/radarlisboa.fm.js',
+	id: 'radarlisboa.fm',
 }];
 
 define(() => connectors);
